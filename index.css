@@ -50,7 +50,9 @@ img {
   width: auto;
 }
 
-.jumbotron {
+.jumbotron p,
+h3 {
+  padding-left: 20;
 }
 
 #support-me-heading {
@@ -75,8 +77,32 @@ footer p {
 .rounded-circle {
   width: 20%;
   height: 20%;
+  float: left;
 }
 
-.future-plans-container {
-  background-color: black;
+.future-plans-container h2 {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+hr {
+  height: 15px;
+}
+
+.future-goals-container h2 {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+#support-me-heading {
+  font-weight: bolder;
+}
+
+.jumbotron h3 {
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.jumbotron p {
+  margin-left: 30px;
 }
